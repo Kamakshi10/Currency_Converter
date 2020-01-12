@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<title>My Canvas</title>
+	<head>
+		<style type="text/css">
+			.canvas{
+				border: 1px solid black;
+				width:400px;
+				border-collapse: collapse;
+			}
+			.key{
+				border-bottom:1px solid black;
+				font-family:sans-serif;
+				font-size: 20px;
+			}
+			td{
+				width:4px;
+				height:4px;
+			}
+		</style>
+	</head>
+	<body>
+		<table class="canvas">
+			<tbody id="whole-body">
+				<tr>
+					<th colspan="100" class="key">Hold <tt>Shift</tt> for Red. Hold <tt>Ctrl</tt> for Blue</th>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+	<script src="canvas.js"></script>
+</html>
